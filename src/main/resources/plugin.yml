@@ -1,0 +1,9 @@
+name: EnderchestPlus
+version: '${project.version}'
+main: me.cirosanchez.enderchestplus.EnderchestPlus
+prefix: "Enderchest+"
+description: A better /enderchest command.
+author: _ciroo
+api-version: '1.8.8'
+load: POSTWORLD
+website: enderchestplus.cirosanchez.me
