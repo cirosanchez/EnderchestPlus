@@ -1,12 +1,18 @@
 package me.cirosanchez.enderchestplus.models;
 
-import java.io.File;
+import lombok.Getter;
+import lombok.Setter;
+import me.cirosanchez.enderchestplus.enderchest.Enderchest;
+
 import java.util.UUID;
 
 public class EnderchestPlusPlayer {
+    @Getter
     private final UUID uuid;
-    private Enderchest enderchest;
 
+    @Getter
+    @Setter
+    private Enderchest enderchest;
 
     public EnderchestPlusPlayer(UUID uuid) {
         this.uuid = uuid;

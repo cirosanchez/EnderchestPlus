@@ -1,0 +1,16 @@
+enderchest:
+  title: '&c&lEnderchest+'
+
+  # Item represents the item that will fill the remaining slots in the enderchest.
+  #
+  #
+  # name: is the name of the item. ColorCode compatible.
+  #
+  # lore: is the lore of the item. ColorCode compatible.
+  #
+  # enchantment: is the enchantment of the item. If true, the item will be enchanted with a no-name enchantment.
+  item:
+    name: '&7Buy more slots at:'
+    lore:
+      - '&bhttps://enderchestplus.cirosanchez.me'
+  enchantment: true
